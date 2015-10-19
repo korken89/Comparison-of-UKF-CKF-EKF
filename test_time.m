@@ -23,8 +23,8 @@ iter = 100000;
 state_s = 15;
 
 % Measuremenat size
-meas_s_best = 3;
-meas_s_worst = 6;
+meas_s_best = 6;
+meas_s_worst = 9;
 
 % % % % % % % % % % % % % % % % % % % % % %
 % Initialize matricies

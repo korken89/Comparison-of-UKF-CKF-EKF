@@ -31,7 +31,7 @@ function [ x_hat, Sp ] = srekf_innovate_worst( x_in, u_in, z_in, Sp_in, Sq_in, S
   y = z_in - h;    
   
   % The H matrix maps the measurement to the states
-  H = [eye(6), zeros(6,9)];
+  H = [eye(9), zeros(9,6)];
 
   % Measurement covariance update
   [~, R] = qr([H * Sp, Sr_in]', 0);
